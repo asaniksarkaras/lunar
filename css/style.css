@@ -1,0 +1,29 @@
+*{padding: 0; margin: 0; outline: none; box-sizing: border-box; overflow: hidden}
+body{background: rgb(255, 255, 255); -webkit-text-size-adjust: 100%; -moz-text-size-adjust:100%; -moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased; overflow-x: hidden; overflow-y:auto; font-family: 'Roboto', sans-serif,sans-serif; font-weight: normal; color: #000000;;}
+body,html{height: 100%;}
+.main-wrap{min-height: 100%; overflow: hidden; position: relative; overflow-x: hidden;}
+.clear:after{content:".";display:block;clear:both;visibility:hidden;line-height:0; height:0; font-size: 0;}
+
+
+/* header style  */
+.main-header-section{float: left; width: 100%;background-color: #000000; padding: 20px 0;}
+.main-header-section .common-wrap{max-width: 1240px; margin: 0 auto; clear: both; padding: 0 20px;}
+.header-inner{display: flex; flex-flow: row wrap; align-items: center; width: 100%;}
+.main-logo{float: left; width: 200px;}
+.main-nav-wrap{float: left; width: calc(100% - 200px); padding-left: 40px; display: flex; flex-flow: row wrap; align-items: center; justify-content: space-between;}
+.nav-bar{float: left; width: 70%;}
+.nav-bar ul{list-style: none; display: flex; flex-flow: row wrap; width: 100%;}
+.nav-bar li{float: left; width: auto; margin: 0 3%;}
+.nav-bar a{text-decoration: none; color: rgb(47, 233, 103);;}
+.sing-in-btn{float: right; width: 30%; display: flex; flex-flow: row wrap; justify-content: end;}
+.sing-in-btn a{-webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; transition: all .4s ease-in-out; border-radius: 30px; height: 63px; color: #ffffff; border: 1px solid transparent; font-weight: 500; line-height: 63px; text-transform: uppercase; text-align: center; font-size: 17px; display: block; background-color: cadetblue; text-decoration: none; width: 200px;}
+.sing-in-btn a:hover{background: transparent; border: 1px solid; }
+/* header style  */
+/*main style*/
+.main-section-wrap{float: left;width: 100%;}
+/*main styel*/
+/*start hero style*/
+
+/*end hero style*/
+
+
